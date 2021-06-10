@@ -6,7 +6,7 @@ publish = false
 version = "0.0.0"
 
 [dependencies]
-solana-program = "1.6.8"
+solana-program = "1.7.1"
 
 [lib]
 crate-type = ["cdylib", "lib"]
