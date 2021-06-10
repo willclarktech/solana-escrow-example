@@ -7,6 +7,7 @@ version = "0.0.0"
 
 [dependencies]
 solana-program = "1.7.1"
+thiserror = "1.0.24"
 
 [lib]
 crate-type = ["cdylib", "lib"]

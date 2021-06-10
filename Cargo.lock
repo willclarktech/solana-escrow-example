@@ -568,6 +568,7 @@ name = "solana-escrow-example"
 version = "0.0.0"
 dependencies = [
  "solana-program",
+ "thiserror",
 ]
 
 [[package]]
