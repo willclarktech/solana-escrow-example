@@ -600,6 +600,7 @@ dependencies = [
 name = "solana-escrow-example"
 version = "0.0.0"
 dependencies = [
+ "arrayref",
  "solana-program",
  "spl-token",
  "thiserror",
