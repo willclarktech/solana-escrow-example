@@ -5,6 +5,9 @@ name = "solana-escrow-example"
 publish = false
 version = "0.0.0"
 
+[features]
+no-entrypoint = []
+
 [dependencies]
 solana-program = "1.7.1"
 spl-token = {version = "3.1.1", features = ["no-entrypoint"]}
