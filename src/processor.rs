@@ -52,6 +52,9 @@ impl Processor {
 		if *token_to_receive_account.owner != spl_token::id() {
 			return Err(ProgramError::IncorrectProgramId);
 		}
+		if token_to_receive_account.data_len() != TokenAccount::LEN {
+			return Err(ProgramError::InvalidAccountData);
+		}
 
 		let escrow_account = next_account_info(account_info_iter)?;
 
